@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    body {
+        background-color: powderblue;
+    }
+
+    h1 {
+        color: blue;
+    }
+
+    p {
+        color: red;
+    }
+</style>
+<body>
+<h1>To je moja prva spletna stran, ki jo poganja kubernetes</h1>
+<div id="toJeRandom"></div>
+</body>
+<script>
+    let theDiv = document.getElementById("toJeRandom");
+    let content = document.createTextNode(JSON.stringify(Math.random()));
+    theDiv.appendChild(content);
+</script>
+</html>
