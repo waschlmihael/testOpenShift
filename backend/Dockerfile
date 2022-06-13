@@ -1,4 +1,4 @@
-FROM python:3.11.0b3-alpine3.16
+FROM python:latest
 MAINTAINER "mihael.waschl@src.si"
 WORKDIR /app
 ENV PYTHONDONTWRITEBYTECODE 1
